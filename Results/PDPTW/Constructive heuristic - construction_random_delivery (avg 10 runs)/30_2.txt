@@ -1,0 +1,778 @@
+C:\Users\andre\Desktop\Multi-Vehicle-DARP\.venv\Scripts\python.exe C:\Users\andre\Desktop\Multi-Vehicle-DARP\Heuristics\PDPTW\launch.py 
+num_clients: 30
+num_companies: 2
+num_vehicles: 2 with maximum capacity 15
+Time horizon: 120 minutes
+max_route_duration: 120 minutes
+max_ride_time_client: 45 minutes
+Source =  0 Sink =  61
+vehicles =  [0, 1]
+All points =  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
+Points no depots =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+Pickup points =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+Delivery points =  [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+set1 =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 0]
+set2 =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
+Association delivery vertex - companies:  {31: 31, 32: 31, 33: 31, 34: 31, 35: 31, 36: 31, 37: 31, 38: 31, 39: 31, 40: 31, 41: 31, 42: 31, 43: 31, 44: 31, 45: 31, 46: 32, 47: 32, 48: 32, 49: 32, 50: 32, 51: 32, 52: 32, 53: 32, 54: 32, 55: 32, 56: 32, 57: 32, 58: 32, 59: 32, 60: 32}
+Service time: {0: 0, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 1, 12: 1, 13: 1, 14: 1, 15: 1, 16: 1, 17: 1, 18: 1, 19: 1, 20: 1, 21: 1, 22: 1, 23: 1, 24: 1, 25: 1, 26: 1, 27: 1, 28: 1, 29: 1, 30: 1, 31: 1, 32: 1, 33: 1, 34: 1, 35: 1, 36: 1, 37: 1, 38: 1, 39: 1, 40: 1, 41: 1, 42: 1, 43: 1, 44: 1, 45: 1, 46: 1, 47: 1, 48: 1, 49: 1, 50: 1, 51: 1, 52: 1, 53: 1, 54: 1, 55: 1, 56: 1, 57: 1, 58: 1, 59: 1, 60: 1, 61: 0}
+Demand:  {0: 0, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 1, 12: 1, 13: 1, 14: 1, 15: 1, 16: 1, 17: 1, 18: 1, 19: 1, 20: 1, 21: 1, 22: 1, 23: 1, 24: 1, 25: 1, 26: 1, 27: 1, 28: 1, 29: 1, 30: 1, 31: -1, 32: -1, 33: -1, 34: -1, 35: -1, 36: -1, 37: -1, 38: -1, 39: -1, 40: -1, 41: -1, 42: -1, 43: -1, 44: -1, 45: -1, 46: -1, 47: -1, 48: -1, 49: -1, 50: -1, 51: -1, 52: -1, 53: -1, 54: -1, 55: -1, 56: -1, 57: -1, 58: -1, 59: -1, 60: -1, 61: 0}
+Earliest time:  {0: 0, 1: 0, 2: 30, 3: 60, 4: 0, 5: 0, 6: 0, 7: 30, 8: 30, 9: 0, 10: 30, 11: 0, 12: 30, 13: 60, 14: 0, 15: 0, 16: 0, 17: 30, 18: 30, 19: 0, 20: 30, 21: 30, 22: 30, 23: 0, 24: 30, 25: 0, 26: 30, 27: 60, 28: 0, 29: 0, 30: 30, 31: 0, 32: 0, 33: 0, 34: 0, 35: 0, 36: 0, 37: 0, 38: 0, 39: 0, 40: 0, 41: 0, 42: 0, 43: 0, 44: 0, 45: 0, 46: 0, 47: 0, 48: 0, 49: 0, 50: 0, 51: 0, 52: 0, 53: 0, 54: 0, 55: 0, 56: 0, 57: 0, 58: 0, 59: 0, 60: 0, 61: 0}
+Latest time:  {0: 120, 1: 30, 2: 60, 3: 90, 4: 30, 5: 30, 6: 30, 7: 60, 8: 60, 9: 30, 10: 60, 11: 30, 12: 60, 13: 90, 14: 30, 15: 30, 16: 30, 17: 60, 18: 60, 19: 30, 20: 60, 21: 60, 22: 60, 23: 30, 24: 60, 25: 30, 26: 60, 27: 90, 28: 30, 29: 30, 30: 60, 31: 120, 32: 120, 33: 120, 34: 120, 35: 120, 36: 120, 37: 120, 38: 120, 39: 120, 40: 120, 41: 120, 42: 120, 43: 120, 44: 120, 45: 120, 46: 120, 47: 120, 48: 120, 49: 120, 50: 120, 51: 120, 52: 120, 53: 120, 54: 120, 55: 120, 56: 120, 57: 120, 58: 120, 59: 120, 60: 120, 61: 120}
+Tempo medio = 5.039397762744797 minutes
+Distanza media = 2.740127315296566 km
+Run 1:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 53, 59, 20, 21, 26, 24, 27, 3, 13, 49, 56, 55, 50, 54, 47, 52, 51, 58, 57, 43, 33, 45, 44, 35, 61]
+Route distance = 37.956 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 53 = 43.959999999999994
+       Arrival time vertex 59 = 44.959999999999994
+       Arrival time vertex 20 = 51.721666666699996
+       Arrival time vertex 21 = 54.41166666669999
+       Arrival time vertex 26 = 58.09166666669999
+       Arrival time vertex 24 = 59.916666666699996
+       Arrival time vertex 27 = 62.324999999999996
+       Arrival time vertex 3 = 70.0266666667
+       Arrival time vertex 13 = 76.9833333334
+       Arrival time vertex 49 = 82.5083333334
+       Arrival time vertex 56 = 83.5083333334
+       Arrival time vertex 55 = 84.5083333334
+       Arrival time vertex 50 = 85.5083333334
+       Arrival time vertex 54 = 86.5083333334
+       Arrival time vertex 47 = 87.5083333334
+       Arrival time vertex 52 = 88.5083333334
+       Arrival time vertex 51 = 89.5083333334
+       Arrival time vertex 58 = 90.5083333334
+       Arrival time vertex 57 = 91.5083333334
+       Arrival time vertex 43 = 100.2266666667
+       Arrival time vertex 33 = 101.2266666667
+       Arrival time vertex 45 = 102.2266666667
+       Arrival time vertex 44 = 103.2266666667
+       Arrival time vertex 35 = 104.2266666667
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 60, 48, 46, 37, 32, 41, 40, 39, 36, 31, 34, 42, 38, 61]
+Route distance = 35.272 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 60 = 67.2183333333
+       Arrival time vertex 48 = 68.2183333333
+       Arrival time vertex 46 = 69.2183333333
+       Arrival time vertex 37 = 77.93666666659999
+       Arrival time vertex 32 = 78.93666666659999
+       Arrival time vertex 41 = 79.93666666659999
+       Arrival time vertex 40 = 80.93666666659999
+       Arrival time vertex 39 = 81.93666666659999
+       Arrival time vertex 36 = 82.93666666659999
+       Arrival time vertex 31 = 83.93666666659999
+       Arrival time vertex 34 = 84.93666666659999
+       Arrival time vertex 42 = 85.93666666659999
+       Arrival time vertex 38 = 86.93666666659999
+Routes total durations: {0: 108.8383333334, 1: 91.5483333333} (max duration 120
+TOTAL SOLUTION COST = 73.228
+Execution time: 0.13 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+Run 2:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 52, 58, 20, 21, 26, 24, 35, 44, 45, 59, 49, 51, 50, 56, 54, 47, 55, 53, 27, 57, 61]
+Route distance = 38.98 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 52 = 43.959999999999994
+       Arrival time vertex 58 = 44.959999999999994
+       Arrival time vertex 20 = 51.721666666699996
+       Arrival time vertex 21 = 54.41166666669999
+       Arrival time vertex 26 = 58.09166666669999
+       Arrival time vertex 24 = 59.916666666699996
+       Arrival time vertex 35 = 63.368333333399995
+       Arrival time vertex 44 = 64.36833333339999
+       Arrival time vertex 45 = 65.36833333339999
+       Arrival time vertex 59 = 72.6433333334
+       Arrival time vertex 49 = 73.6433333334
+       Arrival time vertex 51 = 74.6433333334
+       Arrival time vertex 50 = 75.6433333334
+       Arrival time vertex 56 = 76.6433333334
+       Arrival time vertex 54 = 77.6433333334
+       Arrival time vertex 47 = 78.6433333334
+       Arrival time vertex 55 = 79.6433333334
+       Arrival time vertex 53 = 80.6433333334
+       Arrival time vertex 27 = 87.7550000001
+       Arrival time vertex 57 = 94.67833333339999
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 46, 48, 60, 13, 3, 36, 37, 43, 31, 38, 41, 40, 33, 39, 42, 34, 32, 61]
+Route distance = 39.224 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 46 = 67.2183333333
+       Arrival time vertex 48 = 68.2183333333
+       Arrival time vertex 60 = 69.2183333333
+       Arrival time vertex 13 = 74.4633333333
+       Arrival time vertex 3 = 79.2966666666
+       Arrival time vertex 36 = 88.13833333330001
+       Arrival time vertex 37 = 89.13833333330001
+       Arrival time vertex 43 = 90.13833333330001
+       Arrival time vertex 31 = 91.13833333330001
+       Arrival time vertex 38 = 92.13833333330001
+       Arrival time vertex 41 = 93.13833333330001
+       Arrival time vertex 40 = 94.13833333330001
+       Arrival time vertex 33 = 95.13833333330001
+       Arrival time vertex 39 = 96.13833333330001
+       Arrival time vertex 42 = 97.13833333330001
+       Arrival time vertex 34 = 98.13833333330001
+       Arrival time vertex 32 = 99.13833333330001
+Routes total durations: {0: 101.76666666669999, 1: 103.75000000000001} (max duration 120
+TOTAL SOLUTION COST = 78.2046
+Execution time: 0.09 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+Run 3:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 59, 49, 20, 21, 26, 24, 44, 35, 45, 58, 47, 53, 52, 56, 55, 50, 51, 54, 27, 57, 61]
+Route distance = 38.98 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 59 = 43.959999999999994
+       Arrival time vertex 49 = 44.959999999999994
+       Arrival time vertex 20 = 51.721666666699996
+       Arrival time vertex 21 = 54.41166666669999
+       Arrival time vertex 26 = 58.09166666669999
+       Arrival time vertex 24 = 59.916666666699996
+       Arrival time vertex 44 = 63.368333333399995
+       Arrival time vertex 35 = 64.36833333339999
+       Arrival time vertex 45 = 65.36833333339999
+       Arrival time vertex 58 = 72.6433333334
+       Arrival time vertex 47 = 73.6433333334
+       Arrival time vertex 53 = 74.6433333334
+       Arrival time vertex 52 = 75.6433333334
+       Arrival time vertex 56 = 76.6433333334
+       Arrival time vertex 55 = 77.6433333334
+       Arrival time vertex 50 = 78.6433333334
+       Arrival time vertex 51 = 79.6433333334
+       Arrival time vertex 54 = 80.6433333334
+       Arrival time vertex 27 = 87.7550000001
+       Arrival time vertex 57 = 94.67833333339999
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 48, 46, 60, 13, 3, 37, 33, 41, 38, 40, 34, 32, 43, 31, 36, 42, 39, 61]
+Route distance = 39.224 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 48 = 67.2183333333
+       Arrival time vertex 46 = 68.2183333333
+       Arrival time vertex 60 = 69.2183333333
+       Arrival time vertex 13 = 74.4633333333
+       Arrival time vertex 3 = 79.2966666666
+       Arrival time vertex 37 = 88.13833333330001
+       Arrival time vertex 33 = 89.13833333330001
+       Arrival time vertex 41 = 90.13833333330001
+       Arrival time vertex 38 = 91.13833333330001
+       Arrival time vertex 40 = 92.13833333330001
+       Arrival time vertex 34 = 93.13833333330001
+       Arrival time vertex 32 = 94.13833333330001
+       Arrival time vertex 43 = 95.13833333330001
+       Arrival time vertex 31 = 96.13833333330001
+       Arrival time vertex 36 = 97.13833333330001
+       Arrival time vertex 42 = 98.13833333330001
+       Arrival time vertex 39 = 99.13833333330001
+Routes total durations: {0: 101.76666666669999, 1: 103.75000000000001} (max duration 120
+TOTAL SOLUTION COST = 78.2046
+Execution time: 0.11 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+Run 4:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 20, 35, 44, 45, 21, 26, 24, 13, 59, 50, 51, 58, 47, 49, 54, 56, 53, 55, 52, 27, 57, 43, 61]
+Route distance = 36.836 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 20 = 41.02999999999999
+       Arrival time vertex 35 = 46.768333333299985
+       Arrival time vertex 44 = 47.768333333299985
+       Arrival time vertex 45 = 48.768333333299985
+       Arrival time vertex 21 = 50.67166666659998
+       Arrival time vertex 26 = 54.35166666659998
+       Arrival time vertex 24 = 56.176666666599985
+       Arrival time vertex 13 = 62.139999999899985
+       Arrival time vertex 59 = 67.66499999989999
+       Arrival time vertex 50 = 68.66499999989999
+       Arrival time vertex 51 = 69.66499999989999
+       Arrival time vertex 58 = 70.66499999989999
+       Arrival time vertex 47 = 71.66499999989999
+       Arrival time vertex 49 = 72.66499999989999
+       Arrival time vertex 54 = 73.66499999989999
+       Arrival time vertex 56 = 74.66499999989999
+       Arrival time vertex 53 = 75.66499999989999
+       Arrival time vertex 55 = 76.66499999989999
+       Arrival time vertex 52 = 77.66499999989999
+       Arrival time vertex 27 = 84.7766666666
+       Arrival time vertex 57 = 91.69999999989999
+       Arrival time vertex 43 = 100.41833333319998
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 60, 46, 48, 3, 36, 38, 31, 34, 33, 39, 40, 41, 42, 32, 37, 61]
+Route distance = 38.74 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 60 = 67.2183333333
+       Arrival time vertex 46 = 68.2183333333
+       Arrival time vertex 48 = 69.2183333333
+       Arrival time vertex 3 = 76.99499999999999
+       Arrival time vertex 36 = 85.83666666669998
+       Arrival time vertex 38 = 86.83666666669998
+       Arrival time vertex 31 = 87.83666666669998
+       Arrival time vertex 34 = 88.83666666669998
+       Arrival time vertex 33 = 89.83666666669998
+       Arrival time vertex 39 = 90.83666666669998
+       Arrival time vertex 40 = 91.83666666669998
+       Arrival time vertex 41 = 92.83666666669998
+       Arrival time vertex 42 = 93.83666666669998
+       Arrival time vertex 32 = 94.83666666669998
+       Arrival time vertex 37 = 95.83666666669998
+Routes total durations: {0: 105.02999999989999, 1: 100.44833333339999} (max duration 120
+TOTAL SOLUTION COST = 75.57589999999999
+Execution time: 0.09 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+Run 5:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 20, 35, 45, 44, 21, 26, 24, 13, 59, 51, 56, 55, 53, 49, 50, 58, 47, 54, 52, 27, 57, 43, 61]
+Route distance = 36.836 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 20 = 41.02999999999999
+       Arrival time vertex 35 = 46.768333333299985
+       Arrival time vertex 45 = 47.768333333299985
+       Arrival time vertex 44 = 48.768333333299985
+       Arrival time vertex 21 = 50.67166666659998
+       Arrival time vertex 26 = 54.35166666659998
+       Arrival time vertex 24 = 56.176666666599985
+       Arrival time vertex 13 = 62.139999999899985
+       Arrival time vertex 59 = 67.66499999989999
+       Arrival time vertex 51 = 68.66499999989999
+       Arrival time vertex 56 = 69.66499999989999
+       Arrival time vertex 55 = 70.66499999989999
+       Arrival time vertex 53 = 71.66499999989999
+       Arrival time vertex 49 = 72.66499999989999
+       Arrival time vertex 50 = 73.66499999989999
+       Arrival time vertex 58 = 74.66499999989999
+       Arrival time vertex 47 = 75.66499999989999
+       Arrival time vertex 54 = 76.66499999989999
+       Arrival time vertex 52 = 77.66499999989999
+       Arrival time vertex 27 = 84.7766666666
+       Arrival time vertex 57 = 91.69999999989999
+       Arrival time vertex 43 = 100.41833333319998
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 3, 48, 46, 60, 37, 32, 36, 42, 40, 34, 41, 38, 39, 31, 33, 61]
+Route distance = 37.392 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 3 = 62.829999999900004
+       Arrival time vertex 48 = 72.89499999990001
+       Arrival time vertex 46 = 73.89499999990001
+       Arrival time vertex 60 = 74.89499999990001
+       Arrival time vertex 37 = 83.6133333332
+       Arrival time vertex 32 = 84.6133333332
+       Arrival time vertex 36 = 85.6133333332
+       Arrival time vertex 42 = 86.6133333332
+       Arrival time vertex 40 = 87.6133333332
+       Arrival time vertex 34 = 88.6133333332
+       Arrival time vertex 41 = 89.6133333332
+       Arrival time vertex 38 = 90.6133333332
+       Arrival time vertex 39 = 91.6133333332
+       Arrival time vertex 31 = 92.6133333332
+       Arrival time vertex 33 = 93.6133333332
+Routes total durations: {0: 105.02999999989999, 1: 98.2249999999} (max duration 120
+TOTAL SOLUTION COST = 74.22729999999999
+Execution time: 0.1 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+Run 6:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 20, 44, 45, 35, 21, 26, 24, 13, 52, 47, 49, 59, 58, 50, 51, 56, 55, 53, 54, 27, 57, 43, 61]
+Route distance = 36.836 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 20 = 41.02999999999999
+       Arrival time vertex 44 = 46.768333333299985
+       Arrival time vertex 45 = 47.768333333299985
+       Arrival time vertex 35 = 48.768333333299985
+       Arrival time vertex 21 = 50.67166666659998
+       Arrival time vertex 26 = 54.35166666659998
+       Arrival time vertex 24 = 56.176666666599985
+       Arrival time vertex 13 = 62.139999999899985
+       Arrival time vertex 52 = 67.66499999989999
+       Arrival time vertex 47 = 68.66499999989999
+       Arrival time vertex 49 = 69.66499999989999
+       Arrival time vertex 59 = 70.66499999989999
+       Arrival time vertex 58 = 71.66499999989999
+       Arrival time vertex 50 = 72.66499999989999
+       Arrival time vertex 51 = 73.66499999989999
+       Arrival time vertex 56 = 74.66499999989999
+       Arrival time vertex 55 = 75.66499999989999
+       Arrival time vertex 53 = 76.66499999989999
+       Arrival time vertex 54 = 77.66499999989999
+       Arrival time vertex 27 = 84.7766666666
+       Arrival time vertex 57 = 91.69999999989999
+       Arrival time vertex 43 = 100.41833333319998
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 3, 46, 60, 48, 38, 42, 41, 36, 33, 40, 31, 32, 39, 37, 34, 61]
+Route distance = 37.392 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 3 = 62.829999999900004
+       Arrival time vertex 46 = 72.89499999990001
+       Arrival time vertex 60 = 73.89499999990001
+       Arrival time vertex 48 = 74.89499999990001
+       Arrival time vertex 38 = 83.6133333332
+       Arrival time vertex 42 = 84.6133333332
+       Arrival time vertex 41 = 85.6133333332
+       Arrival time vertex 36 = 86.6133333332
+       Arrival time vertex 33 = 87.6133333332
+       Arrival time vertex 40 = 88.6133333332
+       Arrival time vertex 31 = 89.6133333332
+       Arrival time vertex 32 = 90.6133333332
+       Arrival time vertex 39 = 91.6133333332
+       Arrival time vertex 37 = 92.6133333332
+       Arrival time vertex 34 = 93.6133333332
+Routes total durations: {0: 105.02999999989999, 1: 98.2249999999} (max duration 120
+TOTAL SOLUTION COST = 74.22729999999999
+Execution time: 0.09 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+Run 7:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 53, 49, 20, 21, 26, 24, 45, 35, 44, 58, 54, 52, 47, 50, 56, 59, 55, 51, 27, 57, 61]
+Route distance = 38.98 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 53 = 43.959999999999994
+       Arrival time vertex 49 = 44.959999999999994
+       Arrival time vertex 20 = 51.721666666699996
+       Arrival time vertex 21 = 54.41166666669999
+       Arrival time vertex 26 = 58.09166666669999
+       Arrival time vertex 24 = 59.916666666699996
+       Arrival time vertex 45 = 63.368333333399995
+       Arrival time vertex 35 = 64.36833333339999
+       Arrival time vertex 44 = 65.36833333339999
+       Arrival time vertex 58 = 72.6433333334
+       Arrival time vertex 54 = 73.6433333334
+       Arrival time vertex 52 = 74.6433333334
+       Arrival time vertex 47 = 75.6433333334
+       Arrival time vertex 50 = 76.6433333334
+       Arrival time vertex 56 = 77.6433333334
+       Arrival time vertex 59 = 78.6433333334
+       Arrival time vertex 55 = 79.6433333334
+       Arrival time vertex 51 = 80.6433333334
+       Arrival time vertex 27 = 87.7550000001
+       Arrival time vertex 57 = 94.67833333339999
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 60, 48, 46, 13, 3, 34, 41, 36, 40, 42, 32, 38, 37, 39, 33, 43, 31, 61]
+Route distance = 39.224 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 60 = 67.2183333333
+       Arrival time vertex 48 = 68.2183333333
+       Arrival time vertex 46 = 69.2183333333
+       Arrival time vertex 13 = 74.4633333333
+       Arrival time vertex 3 = 79.2966666666
+       Arrival time vertex 34 = 88.13833333330001
+       Arrival time vertex 41 = 89.13833333330001
+       Arrival time vertex 36 = 90.13833333330001
+       Arrival time vertex 40 = 91.13833333330001
+       Arrival time vertex 42 = 92.13833333330001
+       Arrival time vertex 32 = 93.13833333330001
+       Arrival time vertex 38 = 94.13833333330001
+       Arrival time vertex 37 = 95.13833333330001
+       Arrival time vertex 39 = 96.13833333330001
+       Arrival time vertex 33 = 97.13833333330001
+       Arrival time vertex 43 = 98.13833333330001
+       Arrival time vertex 31 = 99.13833333330001
+Routes total durations: {0: 101.76666666669999, 1: 103.75000000000001} (max duration 120
+TOTAL SOLUTION COST = 78.2046
+Execution time: 0.1 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+Run 8:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 20, 44, 35, 45, 21, 26, 24, 13, 59, 50, 52, 58, 47, 49, 56, 53, 54, 51, 55, 27, 57, 43, 61]
+Route distance = 36.836 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 20 = 41.02999999999999
+       Arrival time vertex 44 = 46.768333333299985
+       Arrival time vertex 35 = 47.768333333299985
+       Arrival time vertex 45 = 48.768333333299985
+       Arrival time vertex 21 = 50.67166666659998
+       Arrival time vertex 26 = 54.35166666659998
+       Arrival time vertex 24 = 56.176666666599985
+       Arrival time vertex 13 = 62.139999999899985
+       Arrival time vertex 59 = 67.66499999989999
+       Arrival time vertex 50 = 68.66499999989999
+       Arrival time vertex 52 = 69.66499999989999
+       Arrival time vertex 58 = 70.66499999989999
+       Arrival time vertex 47 = 71.66499999989999
+       Arrival time vertex 49 = 72.66499999989999
+       Arrival time vertex 56 = 73.66499999989999
+       Arrival time vertex 53 = 74.66499999989999
+       Arrival time vertex 54 = 75.66499999989999
+       Arrival time vertex 51 = 76.66499999989999
+       Arrival time vertex 55 = 77.66499999989999
+       Arrival time vertex 27 = 84.7766666666
+       Arrival time vertex 57 = 91.69999999989999
+       Arrival time vertex 43 = 100.41833333319998
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 3, 60, 46, 48, 38, 39, 32, 36, 42, 33, 34, 37, 31, 41, 40, 61]
+Route distance = 37.392 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 3 = 62.829999999900004
+       Arrival time vertex 60 = 72.89499999990001
+       Arrival time vertex 46 = 73.89499999990001
+       Arrival time vertex 48 = 74.89499999990001
+       Arrival time vertex 38 = 83.6133333332
+       Arrival time vertex 39 = 84.6133333332
+       Arrival time vertex 32 = 85.6133333332
+       Arrival time vertex 36 = 86.6133333332
+       Arrival time vertex 42 = 87.6133333332
+       Arrival time vertex 33 = 88.6133333332
+       Arrival time vertex 34 = 89.6133333332
+       Arrival time vertex 37 = 90.6133333332
+       Arrival time vertex 31 = 91.6133333332
+       Arrival time vertex 41 = 92.6133333332
+       Arrival time vertex 40 = 93.6133333332
+Routes total durations: {0: 105.02999999989999, 1: 98.2249999999} (max duration 120
+TOTAL SOLUTION COST = 74.22729999999999
+Execution time: 0.09 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+Run 9:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 47, 53, 20, 21, 26, 24, 35, 44, 45, 55, 50, 58, 59, 51, 56, 49, 52, 54, 27, 57, 61]
+Route distance = 38.98 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 47 = 43.959999999999994
+       Arrival time vertex 53 = 44.959999999999994
+       Arrival time vertex 20 = 51.721666666699996
+       Arrival time vertex 21 = 54.41166666669999
+       Arrival time vertex 26 = 58.09166666669999
+       Arrival time vertex 24 = 59.916666666699996
+       Arrival time vertex 35 = 63.368333333399995
+       Arrival time vertex 44 = 64.36833333339999
+       Arrival time vertex 45 = 65.36833333339999
+       Arrival time vertex 55 = 72.6433333334
+       Arrival time vertex 50 = 73.6433333334
+       Arrival time vertex 58 = 74.6433333334
+       Arrival time vertex 59 = 75.6433333334
+       Arrival time vertex 51 = 76.6433333334
+       Arrival time vertex 56 = 77.6433333334
+       Arrival time vertex 49 = 78.6433333334
+       Arrival time vertex 52 = 79.6433333334
+       Arrival time vertex 54 = 80.6433333334
+       Arrival time vertex 27 = 87.7550000001
+       Arrival time vertex 57 = 94.67833333339999
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 46, 60, 48, 13, 3, 40, 33, 38, 41, 42, 32, 31, 43, 39, 34, 36, 37, 61]
+Route distance = 39.224 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 46 = 67.2183333333
+       Arrival time vertex 60 = 68.2183333333
+       Arrival time vertex 48 = 69.2183333333
+       Arrival time vertex 13 = 74.4633333333
+       Arrival time vertex 3 = 79.2966666666
+       Arrival time vertex 40 = 88.13833333330001
+       Arrival time vertex 33 = 89.13833333330001
+       Arrival time vertex 38 = 90.13833333330001
+       Arrival time vertex 41 = 91.13833333330001
+       Arrival time vertex 42 = 92.13833333330001
+       Arrival time vertex 32 = 93.13833333330001
+       Arrival time vertex 31 = 94.13833333330001
+       Arrival time vertex 43 = 95.13833333330001
+       Arrival time vertex 39 = 96.13833333330001
+       Arrival time vertex 34 = 97.13833333330001
+       Arrival time vertex 36 = 98.13833333330001
+       Arrival time vertex 37 = 99.13833333330001
+Routes total durations: {0: 101.76666666669999, 1: 103.75000000000001} (max duration 120
+TOTAL SOLUTION COST = 78.2046
+Execution time: 0.07 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+Run 10:
+SOLUTION:
+Route [0, 25, 28, 23, 29, 14, 15, 19, 5, 17, 22, 20, 35, 45, 44, 21, 26, 24, 27, 53, 56, 52, 50, 47, 51, 49, 55, 58, 54, 59, 57, 13, 3, 43, 33, 61]
+Route distance = 33.006 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 25 = 2.7933333333
+       Arrival time vertex 28 = 5.37
+       Arrival time vertex 23 = 7.1233333333
+       Arrival time vertex 29 = 15.425
+       Arrival time vertex 14 = 19.0683333333
+       Arrival time vertex 15 = 22.06
+       Arrival time vertex 19 = 24.479999999999997
+       Arrival time vertex 5 = 28.914999999999996
+       Arrival time vertex 17 = 32.88999999999999
+       Arrival time vertex 22 = 37.58333333329999
+       Arrival time vertex 20 = 41.02999999999999
+       Arrival time vertex 35 = 46.768333333299985
+       Arrival time vertex 45 = 47.768333333299985
+       Arrival time vertex 44 = 48.768333333299985
+       Arrival time vertex 21 = 50.67166666659998
+       Arrival time vertex 26 = 54.35166666659998
+       Arrival time vertex 24 = 56.176666666599985
+       Arrival time vertex 27 = 60
+       Arrival time vertex 53 = 66.9233333333
+       Arrival time vertex 56 = 67.9233333333
+       Arrival time vertex 52 = 68.9233333333
+       Arrival time vertex 50 = 69.9233333333
+       Arrival time vertex 47 = 70.9233333333
+       Arrival time vertex 51 = 71.9233333333
+       Arrival time vertex 49 = 72.9233333333
+       Arrival time vertex 55 = 73.9233333333
+       Arrival time vertex 58 = 74.9233333333
+       Arrival time vertex 54 = 75.9233333333
+       Arrival time vertex 59 = 76.9233333333
+       Arrival time vertex 57 = 77.9233333333
+       Arrival time vertex 13 = 83.1683333333
+       Arrival time vertex 3 = 88.0016666666
+       Arrival time vertex 43 = 96.8433333333
+       Arrival time vertex 33 = 97.8433333333
+Route [0, 6, 4, 11, 1, 16, 9, 7, 8, 10, 30, 12, 2, 18, 46, 48, 60, 36, 32, 42, 31, 37, 41, 40, 39, 38, 34, 61]
+Route distance = 35.272 km
+       Arrival time vertex 0 = 0
+       Arrival time vertex 6 = 4.01
+       Arrival time vertex 4 = 8.469999999999999
+       Arrival time vertex 11 = 11.788333333299999
+       Arrival time vertex 1 = 15.524999999999999
+       Arrival time vertex 16 = 19.544999999999998
+       Arrival time vertex 9 = 25.415
+       Arrival time vertex 7 = 30.098333333299998
+       Arrival time vertex 8 = 33.663333333299995
+       Arrival time vertex 10 = 37.5066666666
+       Arrival time vertex 30 = 46.5516666666
+       Arrival time vertex 12 = 51.0233333333
+       Arrival time vertex 2 = 54.9466666666
+       Arrival time vertex 18 = 57.5966666666
+       Arrival time vertex 46 = 67.2183333333
+       Arrival time vertex 48 = 68.2183333333
+       Arrival time vertex 60 = 69.2183333333
+       Arrival time vertex 36 = 77.93666666659999
+       Arrival time vertex 32 = 78.93666666659999
+       Arrival time vertex 42 = 79.93666666659999
+       Arrival time vertex 31 = 80.93666666659999
+       Arrival time vertex 37 = 81.93666666659999
+       Arrival time vertex 41 = 82.93666666659999
+       Arrival time vertex 40 = 83.93666666659999
+       Arrival time vertex 39 = 84.93666666659999
+       Arrival time vertex 38 = 85.93666666659999
+       Arrival time vertex 34 = 86.93666666659999
+Routes total durations: {0: 102.455, 1: 91.5483333333} (max duration 120
+TOTAL SOLUTION COST = 68.27799999999999
+Execution time: 0.1 s
+Used 2 vehicles out of 2
+All pickup used
+All delivery used
+Solution is feasible? True
+
+Average execution time: 0.1 s
+Average total distance: 75.26
+Average number of vehicles used: 2.0
+
+Process finished with exit code 0
