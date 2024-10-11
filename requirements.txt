@@ -1,0 +1,7 @@
+pandas
+plotly
+gurobipy
+haversine
+geocoder
+openpyxl
+tabulate
